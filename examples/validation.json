@@ -1,0 +1,107 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "source_reopen": "PASS",
+  "source_geometry_preserved": true,
+  "external_library_dependencies": 0,
+  "source_objects": {
+    "SM_GN_Pine_A": {
+      "vertices": 26435,
+      "triangles": 27442,
+      "dimensions": [
+        3.3052449226379395,
+        3.255431652069092,
+        6.0
+      ],
+      "materials": [
+        "M_Preview_Bark_0",
+        "M_Preview_Bark_1",
+        "M_Preview_Bark_2",
+        "M_Preview_Bark_3",
+        "M_Preview_Pine"
+      ],
+      "color_attributes": [
+        "WindMask"
+      ]
+    },
+    "SM_GN_Pine_B": {
+      "vertices": 29746,
+      "triangles": 30852,
+      "dimensions": [
+        4.767597198486328,
+        4.520842552185059,
+        8.0
+      ],
+      "materials": [
+        "M_Preview_Bark_0",
+        "M_Preview_Bark_1",
+        "M_Preview_Bark_2",
+        "M_Preview_Bark_3",
+        "M_Preview_Pine"
+      ],
+      "color_attributes": [
+        "WindMask"
+      ]
+    },
+    "SM_GN_Pine_C": {
+      "vertices": 28843,
+      "triangles": 29922,
+      "dimensions": [
+        5.624840259552002,
+        5.32643985748291,
+        10.5
+      ],
+      "materials": [
+        "M_Preview_Bark_0",
+        "M_Preview_Bark_1",
+        "M_Preview_Bark_2",
+        "M_Preview_Bark_3",
+        "M_Preview_Pine"
+      ],
+      "color_attributes": [
+        "WindMask"
+      ]
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_GN_Pine_A": {
+      "triangles": 27442,
+      "dimensions": [
+        3.3052449226379395,
+        3.255431652069092,
+        6.0
+      ],
+      "material_count": 5,
+      "color_attributes": [
+        "WindMask"
+      ],
+      "status": "PASS"
+    },
+    "SM_GN_Pine_B": {
+      "triangles": 30852,
+      "dimensions": [
+        4.767597198486328,
+        4.520842552185059,
+        8.0
+      ],
+      "material_count": 5,
+      "color_attributes": [
+        "WindMask"
+      ],
+      "status": "PASS"
+    },
+    "SM_GN_Pine_C": {
+      "triangles": 29922,
+      "dimensions": [
+        5.624840259552002,
+        5.32643985748291,
+        10.5
+      ],
+      "material_count": 5,
+      "color_attributes": [
+        "WindMask"
+      ],
+      "status": "PASS"
+    }
+  },
+  "scope": "Published Blender source and its three static FBX outputs; no UE or robotics simulation validation in this release."
+}

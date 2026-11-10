@@ -1,0 +1,26 @@
+# Local caches and editor backups
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local export experiments; curated examples are tracked separately
+Exports/
+Exports_FSL/
+
+# Unreal-generated output if a UE sample is added later
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key

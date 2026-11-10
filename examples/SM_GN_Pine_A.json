@@ -1,0 +1,105 @@
+{
+  "object": "SM_GN_Pine_A",
+  "status": "EXPORTED",
+  "warnings": [
+    "无UV；常量颜色可用，纹理材质需另行确认坐标"
+  ],
+  "error": null,
+  "fbx": "examples/SM_GN_Pine_A.fbx",
+  "record": "examples/SM_GN_Pine_A.json",
+  "source_matrix_world": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      3.5
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gn_parameters": [
+    {
+      "modifier": "树木几何节点",
+      "node_group": "GN_Practice.002",
+      "inputs": {
+        "根部半径": 0.1899999976158142,
+        "树冠宽度": 0.7200000286102295,
+        "树冠起点": 0.27000001072883606,
+        "树高": 6.0,
+        "枝叶密度": 0.9200000166893005,
+        "枝条俯仰": -2.0,
+        "方向扰动": 5.0,
+        "随机种子": 113
+      }
+    }
+  ],
+  "mesh": {
+    "vertices": 26435,
+    "triangles": 27442,
+    "dimensions_m": [
+      3.305245041847229,
+      3.2554315328598022,
+      6.0
+    ],
+    "bounds_local": [
+      [
+        -1.664840579032898,
+        -1.7997922897338867,
+        0.0
+      ],
+      [
+        1.640404462814331,
+        1.4556392431259155,
+        6.0
+      ]
+    ],
+    "uv_layers": [],
+    "materials": [
+      "M_Preview_Bark_0",
+      "M_Preview_Bark_1",
+      "M_Preview_Bark_2",
+      "M_Preview_Bark_3",
+      "M_Preview_Pine"
+    ],
+    "color_attributes": [
+      "WindMask"
+    ],
+    "wind_range": [
+      0.0,
+      1.0
+    ]
+  },
+  "fbx_bytes": 1009020,
+  "fbx_settings": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "use_mesh_modifiers": false,
+    "bake_anim": false,
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "colors_type": "LINEAR",
+    "prioritize_active_color": true,
+    "path_mode": "AUTO"
+  }
+}
