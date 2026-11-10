@@ -1,6 +1,6 @@
-# Forest Shader Lab
+# 程序化森林资产（Procedural Forest Assets）
 
-程序化树木、实时材质与资产交接的个人项目。这个仓库提供三棵可编辑的Geometry Nodes树木、Blender资产检查与FBX导出工具，以及可对照的示例结果。
+基于Blender的程序化树木与资产处理项目。这个仓库提供三棵可编辑的Geometry Nodes树木、资产检查与FBX导出工具，以及可对照的示例结果。
 
 ![Three editable tree variants rendered from the included Blender file](media/tree-variants.png)
 
@@ -11,11 +11,10 @@
 - **参数化树木**：复用树干、枝条与叶簇母版，通过树高、冠宽等参数调整树型，保留可编辑节点图和WindMask颜色属性。
 - **资产检查**：读取求值后的网格、尺寸、UV层、材质槽和颜色属性，将检查结果记录为JSON。
 - **批量导出**：将Geometry Nodes结果转换为临时网格，逐件输出FBX和报告，处理同名文件、导出失败与临时数据清理。
-- **材质实践**：森林项目还包含UE局部高度着色和风动控制。本次仓库先发布Blender资产与工具，完整UE场景不在这个版本中。
 
 ## 我的工作
 
-我的实践包括树木参数调整、UE材质与风动练习、检查和导出工具的使用，以及输出结果的核对。部分参考结构、美术布局和Python工具使用AI辅助生成与整理，详见[CREDITS.md](CREDITS.md)。
+我的实践包括树木参数调整、检查和导出工具的使用，以及输出结果的核对。部分参考结构、美术布局和Python工具使用AI辅助生成与整理，详见[CREDITS.md](CREDITS.md)。
 
 ## 文件入口
 
@@ -47,4 +46,4 @@
 
 ## English overview
 
-Forest Shader Lab is a personal technical-art project exploring procedural trees and asset handoff. The repository contains editable Geometry Nodes assets, Python inspection scripts, an AI-assisted batch FBX exporter, and verified sample outputs. My practice focuses on tree parameters, UE material experiments, tool usage, and checking results. The image above is rendered from the included Blender scene. This release packages Blender assets and tools; it does not include the complete Unreal Engine scene or a robotics simulation setup. See CREDITS for reference and tool provenance.
+Procedural Forest Assets is a personal technical-art project focused on procedural trees and Blender asset processing. The repository contains editable Geometry Nodes assets, Python inspection scripts, an AI-assisted batch FBX exporter, and verified sample outputs. My practice focuses on tree parameters, tool usage, and checking results. The image above is rendered from the included Blender scene. This release packages Blender assets and tools; it does not include the complete Unreal Engine scene or a robotics simulation setup. See CREDITS for reference and tool provenance.

@@ -1,6 +1,6 @@
 """FSL static mesh batch FBX exporter. Source objects and node groups stay editable."""
 bl_info = {
-    'name': 'FSL 批量导出', 'author': 'Forest Shader Lab',
+    'name': 'FSL 批量导出', 'author': 'Procedural Forest Assets',
     'version': (1, 0, 0), 'blender': (4, 2, 0),
     'location': '3D View > Sidebar > FSL',
     'description': '检查所选/集合网格，将GN结果逐件导出FBX及JSON，保护源对象和已有文件',
